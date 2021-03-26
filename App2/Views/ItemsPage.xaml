@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.ItemsPage"
+             Title="About Data"
+             xmlns:local="clr-namespace:App2.ViewModels"  
+             xmlns:model="clr-namespace:App2.Models"  
+             x:Name="BrowseItemsPage">
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="During the quarter Q3 2018, 26.6% of women within the labour force (aged 16-64 and willing, 
+able, and actively seeking work) were unemployed, compared with 20.3% of men within the 
+same period." FontSize="16" TextColor="Black"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="Center"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>
